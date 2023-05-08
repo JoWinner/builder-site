@@ -1,0 +1,11 @@
+export { default as Wood } from "./wood.jpg";
+export { default as Gate } from "./gate.png";
+export { default as Home } from "./home.png";
+export { default as Reward } from "./reward.png";
+export { default as Briefcase } from "./briefcase.png";
+export { default as Home1 } from "./home1.jpg";
+export { default as Home2 } from "./home2.jpg";
+export { default as Home3 } from "./home3.jpg";
+export { default as Home4 } from "./home4.jpg";
+export { default as Home5 } from "./home5.jpg";
+export { default as Home6 } from "./home6.jpg";

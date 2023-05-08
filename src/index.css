@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    height: 100%;
+    --brand: rgb(249 115 22);
+
+  }
+
+
+ 
+}
+
