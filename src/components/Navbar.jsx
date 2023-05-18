@@ -19,7 +19,7 @@ const Navbar = () => {
           </RouterLink>
         </div>
         <div
-          className={`nav-links duration-500  md:static absolute px-5 md:min-h-fit min-h-[50vh] left-0 ${
+          className={`nav-links duration-500  md:static absolute px-5 md:min-h-fit min-h-[30vh] left-0 ${
             isMenuOpen
               ? "top-[9%] bg-black/50 md:bg-transparent "
               : "top-[-100%] "

@@ -20,17 +20,18 @@ const Hero = () => {
   const backgroundImageStyle = {
     backgroundImage: `url(${images[currentImageIndex]})`,
     transition: "background-image 1s ease-in-out",
+    
   };
 
   return (
     <div className="w-full h-screen">
       <div
-        className="h-screen bg-fixed bg-no-repeat bg-cover bg-center object-cover object-center"
+        className=" w-full h-full bg-fixed bg-no-repeat bg-cover bg-center object-cover"
         style={backgroundImageStyle}
       >
         <Navbar />
 
-        <h1 className="relative flex flex-col text-center w-1/6 px-8 items-center justify-center  min-w-fit text-gray-200 top-80 text-5xl font-bold leading-tight font-primary backdrop-blur-sm bg-black/50">
+        <h1 className="relative flex flex-col text-center w-1/6 px-8 items-center justify-center min-w-fit text-gray-200 top-80 text-3xl md:text-5xl font-bold leading-tight font-primary backdrop-blur-sm bg-black/50">
           <Reveal
             childTransition={{ duration: 1, delay: 0.7 }}
             childStyle={{ background: "var(--brand)" }}
