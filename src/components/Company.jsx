@@ -10,7 +10,7 @@ const Company = () => {
           style={{
             backgroundImage: `url(${Home3})`,
           }}
-          className="h-52 flex justify-center items-center  bg-fixed bg-no-repeat bg-cover bg-center mb-20 border-y-8 border-orange-500"
+          className="h-52 flex justify-center items-center  bg-fixed bg-no-repeat bg-cover aspect-square bg-center mb-20 border-y-8 border-orange-500"
         >
           <Reveal
             childTransition={{ duration: 1, delay: 0.7 }}
@@ -50,13 +50,13 @@ const Company = () => {
 
         <div
           style={{ backgroundImage: `url(${Home2})` }}
-          className="md:h-[400px] h-[540px] lg:h-[540px] bg-fixed bg-no-repeat bg-cover xl:ml-48  lg:ml-40 rounded-l-full  mt-24"
+          className="md:h-[400px] h-[540px] lg:h-[540px] bg-fixed bg-no-repeat bg-cover aspect-square xl:ml-48  lg:ml-40 rounded-l-full  mt-24"
         >
           <div
             style={{
               backgroundImage: `url(${Wood})`,
             }}
-            className=" xl:ml-9 h-[280px] md:h-auto lg:h-[250px] xl:h-auto bg-fixed bg-no-repeat bg-cover "
+            className=" xl:ml-9 h-[280px] md:h-auto lg:h-[250px] xl:h-auto bg-fixed bg-no-repeat bg-cover aspect-square "
           >
             <div className=" py-2  px-2  md:px-4 lg:py-2 h-full bg-black/20">
               <Reveal
@@ -83,13 +83,13 @@ const Company = () => {
         </div>
         <div
           style={{ backgroundImage: `url(${Home4})` }}
-          className="md:h-[400px] h-[540px] lg:h-[540px] bg-fixed bg-no-repeat bg-cover xl:mr-48  lg:mr-40 rounded-r-full  mt-24"
+          className="md:h-[400px] h-[540px] lg:h-[540px] bg-fixed bg-no-repeat bg-cover aspect-square xl:mr-48  lg:mr-40 rounded-r-full  mt-24"
         >
           <div
             style={{
               backgroundImage: `url(${Wood})`,
             }}
-            className=" xl:mr-9 h-[280px] md:h-auto lg:h-[250px] xl:h-auto bg-fixed bg-no-repeat bg-cover "
+            className=" xl:mr-9 h-[280px] md:h-auto lg:h-[250px] xl:h-auto bg-fixed bg-no-repeat bg-cover aspect-square "
           >
             <div className=" py-2  px-2  md:px-4 lg:py-2 h-full bg-black/20">
               <Reveal

@@ -37,7 +37,7 @@ const Navbar = () => {
                 className="hover:text-orange-500 transition-colors duration-500 cursor-pointer"
                 onClick={toggleMenu}
               >
-                Company
+                Connect
               </ScrollLink>
             </li>
             <li>

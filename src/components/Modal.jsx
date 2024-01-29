@@ -33,7 +33,7 @@ const Modal = ({
       <img
         src={clickedImg}
         alt={clickedImg}
-        className="block min-w-screen h-full my-auto object-over"
+        className="block min-w-screen h-full my-auto aspect-square object-over"
       />
       <span
         className="dismiss absolute top-5 right-5 text-3xl cursor-pointer z-999"

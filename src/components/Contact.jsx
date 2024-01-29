@@ -64,7 +64,7 @@ const Contact = () => {
       <Element name="contact" id="contact">
         <section>
           <div
-            className="relative overflow-hidden bg-no-repeat bg-cover"
+            className="relative overflow-hidden bg-no-repeat aspect-square bg-cover"
             style={{
               backgroundImage: `url(${Home1})`,
               height: "300px",

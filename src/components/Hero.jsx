@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <div className="w-full h-screen">
       <div
-        className=" w-full h-full bg-fixed bg-no-repeat bg-cover bg-center object-cover"
+        className=" w-full h-full aspect-square bg-fixed bg-no-repeat bg-cover bg-center object-cover"
         style={backgroundImageStyle}
       >
         <Navbar />

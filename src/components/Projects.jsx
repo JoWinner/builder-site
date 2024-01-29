@@ -59,7 +59,7 @@ function Projects() {
             >
               <div className="relative h-full w-full overflow-hidden  bg-orange-500">
                 <img
-                  className="absolute right-0  md:top-1/2   max-w-none md:-translate-y-1/2  object-cover h-[300px] w-full md:left-1/2  md:h-[620px]  md:w-[590px]  md:-translate-x-1/2"
+                  className="absolute right-0  md:top-1/2   max-w-none md:-translate-y-1/2 aspect-square  object-cover h-[300px] w-full md:left-1/2  md:h-[620px]  md:w-[590px]  md:-translate-x-1/2"
                   src={work.img}
                   alt={work.name}
                   width="590px"
